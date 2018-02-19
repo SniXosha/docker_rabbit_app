@@ -1,0 +1,4 @@
+CREATE USER dockeruser;
+CREATE DATABASE rabdb;
+GRANT ALL PRIVILEGES ON DATABASE rabdb TO dockeruser;
+
