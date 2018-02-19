@@ -44,7 +44,6 @@ for row in cursor:
 	row_count += 1
 	print("row: %s    %s\n" % (row_count, row) )
 
-print("GAY SHIT IS DONE")
 channel = connection.channel()
 
 channel.queue_declare(queue='hello')
@@ -60,4 +59,3 @@ channel.basic_consume(callback,
 
 print(' [*] Waiting for messages. To exit press CTRL+C')
 channel.start_consuming()
-print("bb bro")
